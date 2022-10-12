@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Peru",
+        "precio": "$3200",
+        "foto": "./assets/papua-nueva-guinea.png",
+        "id": "007"
+    },
+    {
+        "nombre": "Colombia",
+        "precio": "$2.700",
+        "foto": "./assets/colombia.png",
+        "id": "008"
+    },
+    {
+        "nombre": "Guatemala",
+        "precio": "$3.200",
+        "foto": "./assets/guatemala.png",
+        "id": "009"
+    },
+    {
+        "nombre": "PAPÚANUEVAGUINEA",
+        "precio": "$3.900",
+        "foto": "./assets/papua-nueva-guinea.png",
+        "id": "010"
+    }
+]
