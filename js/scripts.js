@@ -16,7 +16,7 @@ class ElementoCarrito {
 }
 
 //clase constructora de nuevo objetos
-class Cafe {
+class cafe {
     constructor(nombre, precio, foto, id) {
         this.nombre = nombre;
         this.precio = Number(precio);
@@ -39,15 +39,15 @@ function cargarProductos() {
 cargarProductos();
 
 //traigo de la api y lo pusheo a un array
-const CafeApi = [];
+const librosApi = [];
 
-async function apiCafe() {
+async function apiLibros() {
     const APIGET = "./js/productos.json";
     const resp = await fetch(APIGET);
     const data = await resp.json();
     data.forEach(e => producto.push(new cafe(e.nombre, e.precio, e.foto, e.id)))
     /* producto.push(data); */
-    /* producto = productos.concat(cafeApi); */
+    /* producto = productos.concat(librosApi); */
 }
 
 const contenedorCarritoCompras = document.querySelector('#items');
